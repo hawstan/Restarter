@@ -1,0 +1,13 @@
+name: Restarter
+main: Restarter.Restarter
+version: 0.1
+commands:
+    restart:
+        description: Restarter menu
+        permission: restarter.restart
+        permission-message: You don't have permission to restart the server.
+permissions:
+    restarter.*:
+        description: Gives access to all Restarter commands
+    restarter.restart:
+        description: Gives permission to restart the server
